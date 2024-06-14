@@ -1,0 +1,96 @@
+.App {
+  width: 70%;
+  background: yellow;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  height: auto;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+}
+
+form input {
+  flex-basis: 80%;
+  height: 30px;
+  outline: none;
+}
+
+form button {
+  flex-basis: 20%;
+  background: orangered;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+
+.outerDiv {
+  width: 100%;
+  margin: auto;
+}
+
+.outerDiv ul {
+  margin-top: 50px;
+  padding-left: 0px;
+}
+
+.outerDiv ul li {
+  list-style: none;
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+  background: #d4871380;
+  margin-top: 10px;
+}
+
+.outerDiv ul li span {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  color: red;
+  font-weight: bolder;
+}
+
+.completed_todo {
+  text-decoration: line-through;
+  background: green !important;
+  color: white;
+}
+
+.outertabDiv ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.outertabDiv ul li button {
+  background: #062d5a57;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.activeTabs {
+  background: #062d5a !important;
+  color: aliceblue;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-underline-position: under;
+  color: #5ea71a !important;
+  text-underline-offset: 5px;
+}
